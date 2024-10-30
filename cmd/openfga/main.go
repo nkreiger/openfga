@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	os.getEnv("OPENFAS_DATA");
 	rootCmd := cmd.NewRootCommand()
 
 	runCmd := run.NewRunCommand()
